@@ -4,6 +4,10 @@ const app = express();
 app.use(express.json());
 const port = 3003;
 
+app.get('/', (req, res) => {
+    res.send('Gateway Service is running');
+});
+
 app.get('/health', (req, res) => {
   res.json({ status: 'Gateway Service is healthy' });
 });
