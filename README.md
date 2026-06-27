@@ -1,4 +1,4 @@
-<img width="1457" height="263" alt="image" src="https://github.com/user-attachments/assets/f90ad3d8-8958-4235-8e3b-25b16983aebd" /># Microservices_Containerization_Assessment
+## Microservices_Containerization_Assessment
 Microservices Containerization Assessment
 
 ### Task 1: Create Dockerfile for Service
