@@ -23,7 +23,7 @@ COPY . .
 EXPOSE 3000
 
 # Start application
-CMD ["npm", "start"]
+CMD ["node", "app.js"]
 ```
 <img width="832" height="596" alt="image" src="https://github.com/user-attachments/assets/361fa839-89ca-4841-ae40-078a07b1fb23" />
 
@@ -41,7 +41,7 @@ COPY . .
 
 EXPOSE 3001
 
-CMD ["npm", "start"]
+CMD ["node", "app.js"]
 ```
 <img width="728" height="393" alt="image" src="https://github.com/user-attachments/assets/0fc10442-059b-4ac4-b75a-b1bc2979cc9a" />
 
@@ -59,7 +59,7 @@ COPY . .
 
 EXPOSE 3002
 
-CMD ["npm","start"]
+CMD ["node", "app.js"]
 ```
 <img width="693" height="412" alt="image" src="https://github.com/user-attachments/assets/c2f13759-163b-43e5-999c-90c5143737f0" />
 
@@ -77,7 +77,7 @@ COPY . .
 
 EXPOSE 3003
 
-CMD ["npm", "start"]
+CMD ["node", "app.js"]
 ```
 <img width="746" height="372" alt="image" src="https://github.com/user-attachments/assets/5a547b5f-08a8-426b-937d-f62648f4526d" />
 
