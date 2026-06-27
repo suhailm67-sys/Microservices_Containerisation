@@ -6,6 +6,10 @@ const port = 3002;
 
 const orders = [];
 
+app.get('/', (req, res) => {
+    res.send('Order Service is running');
+});
+
 app.get('/health', (req, res) => {
   res.json({ status: 'Order Service is healthy' });
 });
