@@ -153,5 +153,5 @@ app.get('/', (req, res) => {
 });
 ```
 #### 2. Result for User service when connecting with
-`http://localhost:3000/` - <img width="505" height="211" alt="image" src="https://github.com/user-attachments/assets/95c25b68-5434-49ba-bd6a-1a86d7edfae5" />
-`http://localhost:3000/users` - <img width="463" height="380" alt="image" src="https://github.com/user-attachments/assets/79889fdd-e284-4b37-9f3c-d9ff106febe4" />
+  1. `http://localhost:3000/` - <img width="505" height="211" alt="image" src="https://github.com/user-attachments/assets/95c25b68-5434-49ba-bd6a-1a86d7edfae5" />
+  2. `http://localhost:3000/users` - <img width="463" height="380" alt="image" src="https://github.com/user-attachments/assets/79889fdd-e284-4b37-9f3c-d9ff106febe4" />
