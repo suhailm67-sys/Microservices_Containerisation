@@ -155,3 +155,17 @@ app.get('/', (req, res) => {
 #### 2. Result for User service when connecting with `http://localhost:3000/` and `http://localhost:3000/users`
 <img width="505" height="211" alt="image" src="https://github.com/user-attachments/assets/95c25b68-5434-49ba-bd6a-1a86d7edfae5" />
 <img width="463" height="380" alt="image" src="https://github.com/user-attachments/assets/79889fdd-e284-4b37-9f3c-d9ff106febe4" />
+<img width="486" height="221" alt="image" src="https://github.com/user-attachments/assets/cb450dab-e2cf-44ec-8322-021f8c29ba76" />
+
+#### 3. Result for Product service when connecting with `http://localhost:3001/` and `http://localhost:3001/products`
+<img width="332" height="255" alt="image" src="https://github.com/user-attachments/assets/d4d1f52f-d54b-46fd-9130-27aed28cdadc" />
+<img width="400" height="387" alt="image" src="https://github.com/user-attachments/assets/0347f2c8-379b-40d2-9359-959f1ab4d3e7" />
+
+#### 3. Result for Order service when connecting with `http://localhost:3002/` and `http://localhost:3002/order`
+<img width="318" height="232" alt="image" src="https://github.com/user-attachments/assets/8744334f-19ab-4a2f-af64-32e96b757bdd" />
+<img width="386" height="265" alt="image" src="https://github.com/user-attachments/assets/5d2f8077-f011-46e5-ba3e-f71cef15bfbd" />
+
+#### 3. Result for Gateway service when connecting with `http://localhost:3003/` and `http://localhost:3003/health`
+<img width="337" height="267" alt="image" src="https://github.com/user-attachments/assets/2f3a8513-9a4b-4ed7-b436-ba4c12a0f89e" />
+<img width="400" height="291" alt="image" src="https://github.com/user-attachments/assets/adae144d-e3ce-4555-8110-e4918c4ef0d1" />
+<img width="415" height="387" alt="image" src="https://github.com/user-attachments/assets/12a539d5-08bc-4fe0-b910-d2653d3203ba" />
