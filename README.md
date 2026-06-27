@@ -165,7 +165,13 @@ app.get('/', (req, res) => {
 <img width="318" height="232" alt="image" src="https://github.com/user-attachments/assets/8744334f-19ab-4a2f-af64-32e96b757bdd" />
 <img width="386" height="265" alt="image" src="https://github.com/user-attachments/assets/5d2f8077-f011-46e5-ba3e-f71cef15bfbd" />
 
-#### 3. Result for Gateway service when connecting with `http://localhost:3003/` and `http://localhost:3003/health`
+#### 4. Result for Gateway service when connecting with `http://localhost:3003/` and `http://localhost:3003/health`
 <img width="337" height="267" alt="image" src="https://github.com/user-attachments/assets/2f3a8513-9a4b-4ed7-b436-ba4c12a0f89e" />
 <img width="400" height="291" alt="image" src="https://github.com/user-attachments/assets/adae144d-e3ce-4555-8110-e4918c4ef0d1" />
 <img width="415" height="387" alt="image" src="https://github.com/user-attachments/assets/12a539d5-08bc-4fe0-b910-d2653d3203ba" />
+
+#### 5. Now to check if the communications between the containers are working:
+1. Run `docker exec -it gateway-service sh` to open a shell inside the Gateway container
+2. From within the container, test connectivity to the User Service using `wget -qO- http://user-service:3000` command
+3. This confirms that the services can communicate over the shared Docker network
+<img width="1111" height="76" alt="image" src="https://github.com/user-attachments/assets/c58f0087-e8d9-451f-9c19-29e733f012af" />
