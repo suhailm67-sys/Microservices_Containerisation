@@ -146,9 +146,12 @@ networks:
 <img width="1452" height="332" alt="image" src="https://github.com/user-attachments/assets/dfd562f4-9f22-458e-8f18-ca5dbbd5f753" />
 
 ### Task 4: Testing the outputs
-#### 1. To get the required outputs we have updated the `app.js` file and added a extra line to give the result `User Service is running` when reaching the local host `http://localhost:3000/` from browser
+#### 1. To get the required outputs we have updated the `app.js` file and added a extra line to give the result `User Service is running` when reaching the local host `http://localhost:3000/` from browser. The same has been updated for Product, Order and Gateway services accordingly. 
 ```
 app.get('/', (req, res) => {
     res.send('User Service is running');
 });
 ```
+#### 2. Result for User service when connecting with
+`http://localhost:3000/` - <img width="505" height="211" alt="image" src="https://github.com/user-attachments/assets/95c25b68-5434-49ba-bd6a-1a86d7edfae5" />
+`http://localhost:3000/users` - <img width="463" height="380" alt="image" src="https://github.com/user-attachments/assets/79889fdd-e284-4b37-9f3c-d9ff106febe4" />
