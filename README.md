@@ -175,3 +175,9 @@ app.get('/', (req, res) => {
 2. From within the container, test connectivity to the User Service using `wget -qO- http://user-service:3000` command
 3. This confirms that the services can communicate over the shared Docker network
 <img width="1111" height="76" alt="image" src="https://github.com/user-attachments/assets/c58f0087-e8d9-451f-9c19-29e733f012af" />
+
+### Finally after getting all the required outputs and once the code is working, stop and remove the running containers `docker compose down -v`
+<img width="1460" height="213" alt="image" src="https://github.com/user-attachments/assets/70cc3aed-a7dd-4bdf-8dfa-3287bec7881f" />
+
+
+## This completes the assignment and all the required screenshots along with the codes, docker file attached in the same repository
