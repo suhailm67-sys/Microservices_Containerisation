@@ -144,3 +144,11 @@ networks:
 
 #### 4. Also check the logs using `docker compose logs`, `docker compose logs -f` commands
 <img width="1452" height="332" alt="image" src="https://github.com/user-attachments/assets/dfd562f4-9f22-458e-8f18-ca5dbbd5f753" />
+
+### Task 4: Testing the outputs
+#### 1. To get the required outputs we have updated the `app.js` file and added a extra line to give the result `User Service is running` when reaching the local host `http://localhost:3000/` from browser
+```
+app.get('/', (req, res) => {
+    res.send('User Service is running');
+});
+```
