@@ -1,5 +1,5 @@
 ## Microservices_Containerization_Assessment
-Microservices Containerization Assessment
+Objective - Containerize a microservices-based application using Node.js, Docker, and Docker Compose.
 
 ### Task 1: Create Dockerfile for Service
 #### 1. Navigate to user-service folder and create a new docker file using Visual Studio
