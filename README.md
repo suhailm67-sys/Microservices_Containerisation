@@ -1,4 +1,4 @@
-# Microservices_Containerization_Assessment
+<img width="1457" height="263" alt="image" src="https://github.com/user-attachments/assets/f90ad3d8-8958-4235-8e3b-25b16983aebd" /># Microservices_Containerization_Assessment
 Microservices Containerization Assessment
 
 ### Task 1: Create Dockerfile for Service
@@ -131,11 +131,16 @@ networks:
 <img width="893" height="787" alt="image" src="https://github.com/user-attachments/assets/937d1e6b-4a58-46ec-8eae-f32c86887306" />
 
 ### Task 3: Building images and starting containers
-#### 1. Go to root directory and run `docker compose build`
+#### 1. Go to root directory and run `docker compose build` command
 <img width="1876" height="206" alt="image" src="https://github.com/user-attachments/assets/79b0487e-cd03-4dab-99b4-0365c2fe28b5" />
 <img width="1202" height="262" alt="image" src="https://github.com/user-attachments/assets/1df1d1a6-2faa-4048-a03e-fc909cf81498" />
 
-#### 2. Once the build is completed, start the containers using `docker compose up`
+#### 2. Once the build is completed, start the containers using `docker compose up` command
 <img width="1447" height="321" alt="image" src="https://github.com/user-attachments/assets/3b5b941a-fefd-4522-879f-6d6c6624cab0" />
 <img width="1291" height="282" alt="image" src="https://github.com/user-attachments/assets/e8b13419-4669-4fc8-9361-483f26c583b0" />
 
+#### 3. Once the containers are created, check running containers using `docker ps` command
+<img width="1457" height="263" alt="image" src="https://github.com/user-attachments/assets/c76f9a9b-2654-403f-bb43-b7ddb8ecf308" />
+
+#### 4. Also check the logs using `docker compose logs`, `docker compose logs -f` commands
+<img width="1452" height="332" alt="image" src="https://github.com/user-attachments/assets/dfd562f4-9f22-458e-8f18-ca5dbbd5f753" />
