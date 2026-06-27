@@ -135,7 +135,7 @@ networks:
 <img width="1876" height="206" alt="image" src="https://github.com/user-attachments/assets/79b0487e-cd03-4dab-99b4-0365c2fe28b5" />
 <img width="1202" height="262" alt="image" src="https://github.com/user-attachments/assets/1df1d1a6-2faa-4048-a03e-fc909cf81498" />
 
-2. Once the build is completed, start the containers using `docker compose up`
+#### 2. Once the build is completed, start the containers using `docker compose up`
 <img width="1447" height="321" alt="image" src="https://github.com/user-attachments/assets/3b5b941a-fefd-4522-879f-6d6c6624cab0" />
 <img width="1291" height="282" alt="image" src="https://github.com/user-attachments/assets/e8b13419-4669-4fc8-9361-483f26c583b0" />
 
