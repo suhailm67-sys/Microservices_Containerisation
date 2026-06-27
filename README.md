@@ -25,7 +25,7 @@ EXPOSE 3000
 # Start application
 CMD ["node", "app.js"]
 ```
-<img width="832" height="596" alt="image" src="https://github.com/user-attachments/assets/361fa839-89ca-4841-ae40-078a07b1fb23" />
+<img width="737" height="570" alt="image" src="https://github.com/user-attachments/assets/1aedbd94-00f6-4209-a18e-7a53f9a6c080" />
 
 #### 2. Navigate to product-service folder and create a new docker file using Visual Studio
 ```
@@ -43,7 +43,7 @@ EXPOSE 3001
 
 CMD ["node", "app.js"]
 ```
-<img width="728" height="393" alt="image" src="https://github.com/user-attachments/assets/0fc10442-059b-4ac4-b75a-b1bc2979cc9a" />
+<img width="710" height="395" alt="image" src="https://github.com/user-attachments/assets/e1b789b2-761a-4f98-81a0-30210c8dd149" />
 
 #### 3. Navigate to order-service folder and create a new docker file using Visual Studio
 ```
@@ -61,7 +61,7 @@ EXPOSE 3002
 
 CMD ["node", "app.js"]
 ```
-<img width="693" height="412" alt="image" src="https://github.com/user-attachments/assets/c2f13759-163b-43e5-999c-90c5143737f0" />
+<img width="745" height="382" alt="image" src="https://github.com/user-attachments/assets/13c0bc89-174a-42d8-9bff-2d752fbd06d7" />
 
 #### 4. Navigate to gateway-service folder and create a new docker file using Visual Studio
 ```
@@ -79,7 +79,7 @@ EXPOSE 3003
 
 CMD ["node", "app.js"]
 ```
-<img width="746" height="372" alt="image" src="https://github.com/user-attachments/assets/5a547b5f-08a8-426b-937d-f62648f4526d" />
+<img width="710" height="386" alt="image" src="https://github.com/user-attachments/assets/0ac4d1ef-9a2c-4439-bcf1-c269489a1bab" />
 
 ### Task 2: Create a docker-compose.yml file
 #### 1. Go back to the root folder and create a docker compose yml file
@@ -135,6 +135,5 @@ networks:
 <img width="1876" height="206" alt="image" src="https://github.com/user-attachments/assets/79b0487e-cd03-4dab-99b4-0365c2fe28b5" />
 <img width="1202" height="262" alt="image" src="https://github.com/user-attachments/assets/1df1d1a6-2faa-4048-a03e-fc909cf81498" />
 2. Once the build is completed, start the containers using `docker compose up`
-<img width="1903" height="232" alt="image" src="https://github.com/user-attachments/assets/d4992cdd-2545-4fb3-84ae-2892406ab062" />
 <img width="1447" height="321" alt="image" src="https://github.com/user-attachments/assets/3b5b941a-fefd-4522-879f-6d6c6624cab0" />
 
